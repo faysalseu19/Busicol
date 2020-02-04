@@ -1,28 +1,32 @@
 /*
-  Theme Name: Name - Multipurpose HTML Template
+  Theme Name: Name - One page HTML Template
   Author: 
   Support: admin@gmail.com
   Description: Creative  HTML5 template.
   Version: 1.0
 */
 
-/* CSS Index 
+/*==============================================
+		 CSS Index 
 ------------------------------------
 1. Theme default css
 2. header
 3. slider
 4. about-area
-5. features-box
-6. department
-7. team
-8. video-area
-9. counter
-10. footer 
-*/
+5. counter area 
+6. about-wrapr-area 
+7. services area 
+8. financial-solution- area
+9. Protfolio area
+10. Project area 
+11. contact area 
+12. footer-area
 
+=========================================== */
 
-
-/* 1. Theme default css */
+/*=======================================
+ 1. Theme default css 
+========================================= */
 @import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700|Poppins:300,400,500,600,700');
 
  body {
@@ -83,7 +87,6 @@ h4,
 h5,
 h6 {
 	font-family: 'Poppins', sans-serif;
-	/* font-family: 'Open Sans', sans-serif; */
 	font-weight: normal;
 	color: #1f1f1f;
 }
@@ -141,10 +144,6 @@ label {
 	opacity: 1;
 }
 
-/* ====================
-===== Default Background
-============================ */
-
 .theme-bg {
 	background: #1696e7;
 }
@@ -158,12 +157,7 @@ label {
 	background: #f5f5f5;
 }
 
-/* =============== 
-===== Overlay 
-===================*/
-
-.theme-overlay,
-.overlay {
+.theme-overlay {
 	position: relative;
 }
 .theme-overlay::before {
@@ -176,20 +170,6 @@ label {
 	top: 0;
 	width: 100%;
 }
-.overlay::before {
-	position: absolute;
-  	content: "";
-  	background-color: #1f1f1f;
-  	top: 0;
-  	left: 0;
-  	width: 100%;
-  	height: 100%;
-  	opacity: 0.6;
-}
-
-/*=========================
-====  button style 
-============================*/
 
 .boxed-btn {
 	font-family: 'Poppins', sans-serif;
@@ -233,7 +213,7 @@ label {
 }
 
 /* =======================================
-======= Header area  CSS
+2. Header area  CSS
 ========================================== */
 
 .header-area .navbar {
@@ -297,7 +277,7 @@ label {
 }
 
 /* =================================================
-========= Slider  Area CSS =========
+3. Slider  Area CSS 
 ================================================== */
 
 .slider-bg-1 {
@@ -384,7 +364,7 @@ label {
 }
 
 /* ====================================================
-====== About Area CSS======
+4. About Area CSS
 ======================================================== */
 
 .about-area {
@@ -431,7 +411,7 @@ label {
 }
 
 /* ====================================================
-====== Counter Area CSS======
+5. Counter Area CSS
 ======================================================== */
 
 .counter-area {
@@ -458,7 +438,7 @@ label {
 }
 
 /* ================================================
-	 about-wrapr-area 
+6. about-wrapr-area 
 =================================================== */
 
 .about-wrapr-area {
@@ -508,7 +488,7 @@ label {
 }
 
 /* ====================================================
-====== Services Area CSS======
+7. Services Area CSS
 ======================================================== */
 
 .service-bg-1 {
@@ -599,7 +579,7 @@ label {
   }
 
 /* ====================================================
-====== Financial-Solution- Area CSS======
+8. Financial-Solution- Area CSS
 ======================================================== */
 
 .financial-solution-area {
@@ -655,7 +635,7 @@ label {
 }
 
 /* ================================================
-Protfolio area CSS
+9. Protfolio area CSS
 ==================================================== */
 
 .protfolio-area {
@@ -719,7 +699,7 @@ Protfolio area CSS
 }
 
 /* ===============================================
-Project area CSS
+ 10. Project area CSS
 =============================================== */
 
 .project-area {
@@ -749,7 +729,7 @@ Project area CSS
 }
 
 /* =================================================
-Contact area CSS
+11. Contact area CSS
 ================================================= */
 .contact-area {
 	padding: 120px 0 80px;
@@ -810,7 +790,7 @@ Contact area CSS
 	color: #8a8a8a;
 }
 /* =============================================
-footer-area
+12. footer-area
 ============================================== */
 .footer-area .footer-top{
 	padding-top: 140px;
